@@ -1,0 +1,28 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+
+# Build
+Debug/
+Release/
+x64/
+x86/
+
+# Qt generated
+moc_*
+ui_*.h
+qrc_*.cpp
+
+# Executables
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+
+# Logs
+*.log
+UpgradeLog.htm
