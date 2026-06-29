@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>CalculatorClass</class>
- <widget class="QMainWindow" name="CalculatorClass">
+ <class>MainWindowClass</class>
+ <widget class="QMainWindow" name="MainWindowClass">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -269,8 +269,6 @@
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources>
-  <include location="Calculator.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

@@ -93,11 +93,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <QtUic Include="Calculator.ui" />
-    <QtMoc Include="Calculator.h" />
-    <ClCompile Include="Calculator.cpp" />
-    <ClCompile Include="InitData.cpp" />
+    <QtUic Include="MainWindow.ui" />
+    <QtMoc Include="MainWindow.h" />
+    <ClCompile Include="MainWindow.cpp" />
     <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Calculator.h" />
+    <ClInclude Include="CalculatorState.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
